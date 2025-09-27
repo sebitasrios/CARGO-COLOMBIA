@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Service Details</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Logis
+  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">CARGO</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Inicio<br></a></li>
+          <!-- <li><a href ="contact">Contactanos</a></li> -->
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="contact.html">Contactanos</a>
+
+    </div>
+  </header>
+ 
+  <main class="main">
+
+   
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade"
+      style="background-image: url(assets/img/page-title-bg.jpeg);">
+      <div class="container position-relative">
+        <h1>Peajes en Colombia: datos y visualización interactiva</h1>
+        <p>Accede a una plataforma diseñada para facilitar la consulta de peajes en Colombia. Aquí podrás explorar de
+          manera sencilla una tabla con las tarifas actualizadas y un mapa interactivo para tiempos de desplazamiento.
+          Una herramienta práctica para transportadores, viajeros y empresas que buscan optimizar su tiempo y planificar
+          mejor sus rutas.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Service Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <br><br>
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <span>Tarifas de Peajes en Colombia<br></span>
+      <h2>Tarifas de Peajes en Colombia</h2>
+      <p>Consulta en tiempo real las tarifas de los peajes en las principales vías de Colombia. Esta tabla interactiva
+        te permite filtrar por sector, nombre del peaje y categoría de vehículo, brindando información confiable y
+        actualizada para transportadores, viajeros y empresas que requieren planear sus costos de movilidad.</p>
+    </div><!-- End Section Title -->
+    <!-- Aquí va tu iframe -->
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="mb-4" data-aos="fade-up" data-aos-delay="200"
+        style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius: 12px;">
+        <iframe src="https://lookerstudio.google.com/embed/reporting/bdbae070-d839-4ef2-9851-da42caf657ad/page/fr2YF"
+          style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allowfullscreen loading="lazy"
+          sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+        </iframe>
+      </div>
+    </div>
+    <br>
+
+
+    <!-- esta es la parte del mapa-->
+
+    <div class="container section-title" data-aos="fade-up">
+      <span>Calcula tu tiempo de desplazamiento<br></span>
+      <h2>Calcula tu tiempo de desplazamiento</h2>
+      <p> Consulta en tiempo real las tarifas de los peajes en las principales vías de Colombia. Esta tabla interactiva
+        te permite filtrar por sector, nombre del peaje y categoría de vehículo, brindando información confiable y
+        actualizada para transportadores, viajeros y empresas que requieren planear sus costos de movilidad. </p>
+    </div>
+
+<div class="service-details">
+  <!-- Formulario -->
+  <div class="form-container">
+    <div class="input-group">
+      <label for="origen">Origen:</label>
+      <input id="origen" type="text" placeholder="Ej: Bello, Antioquia">
+    </div>
+    <div class="input-group">
+      <label for="destino">Destino:</label>
+      <input id="destino" type="text" placeholder="Ej: Montería, Córdoba">
+    </div>
+    <button class="btn-calcular" onclick="calcularTiempo()">🚗 Calcular</button>
+  </div>
+
+
+    
+    <div class="service-details">
+      <div id="map"></div>
+    </div>
+
+    <div id="resultado" class="resultado-box"></div>
+
+    <script>
+      let map, directionsService, directionsRenderer;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 7,
+          center: { lat: 6.2442, lng: -75.5812 }, // Medellín como centro inicial
+        });
+        directionsService = new google.maps.DirectionsService();
+        directionsRenderer = new google.maps.DirectionsRenderer({ suppressMarkers: false });
+        directionsRenderer.setMap(map);
+      }
+
+      function calcularTiempo() {
+        const origen = document.getElementById("origen").value;
+        const destino = document.getElementById("destino").value;
+
+        if (!origen || !destino) {
+          alert("Por favor ingresa origen y destino");
+          return;
+        }
+
+        directionsService.route(
+          {
+            origin: origen,
+            destination: destino,
+            travelMode: google.maps.TravelMode.DRIVING, // Puedes usar WALKING, BICYCLING, TRANSIT
+          },
+          (response, status) => {
+            if (status === "OK") {
+              directionsRenderer.setDirections(response);
+
+              // Extraer tiempo y distancia de la primera ruta
+              const route = response.routes[0].legs[0];
+              const tiempo = route.duration.text;
+              const distancia = route.distance.text;
+
+              document.getElementById("resultado").innerHTML =
+                `⏱ Tiempo estimado: ${tiempo} <br> 📏 Distancia: ${distancia}`;
+            } else {
+              alert("Error al calcular la ruta: " + status);
+            }
+          }
+        );
+      }
+    </script>
+
+    <!-- Carga de la librería de Google Maps con callback a initMap -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHKy2BNOsrLbCweRhc-lgD8ldoQlYGrhg&libraries=places&callback=initMap"
+      async defer></script>
+<br><br>
+
+
+
+
+
+    <footer id="footer" class="footer dark-background">
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">CARGO-DATA</span>
+            </a>
+            <p>Optimizar rutas de transporte de carga en Colombia. Nuestro objetivo es reducir costos,
+              tiempos de entrega y emiciones de CO2 para empresas de transporte y clientes.</p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://x.com/?lang=es" target="_blank"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://co.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-6 footer-links d-flex flex-column align-items-center">
+            <h4>Todos los Links</h4>
+            <ul class="text-center" style="list-style: none; padding: 0;">
+              <li><a href="#">inicio</a></li>
+              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Politica de privacidad</a></li>
+            </ul>
+          </div>
+
+          <!--<div class="col-lg-2 col-6 footer-links">
+          <h4>Nuestros Servicios</h4>
+          <ul>
+            <li><a href="#">Análisis de Ruta</a></li>
+            <li><a href="#">Asesoría de Costos </a></li>
+            <li><a href="#">Logística Integral</a></li>
+          </ul>
+        </div>-->
+
+
+          <div class="col-lg-4 col-md-12 footer-contact text-start text-md-start">
+            <h4>Contactanos</h4>
+            <p>Cl. 67 #53-108</p>
+            <p>Medellin, Antioquia</p>
+            <p>COLOMBIA</p>
+            <p class="mt-4"><strong>Telefono:</strong> <span>+57 3138140202</span></p>
+            <p><strong>Email:</strong> <span>cargodatainfo@gmail.com</span></p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Cargodata</strong> <span>All Rights Reserved</span>
+        </p>
+      </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
